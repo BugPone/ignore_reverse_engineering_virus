@@ -1,0 +1,18 @@
+ANSWER: It fires all (or many) of your remote events with various inputs.
+These remote events could be, for example, the ones located in Workspace and Replicated Storages.
+
+SO HOW DO YOU FIX (temporarily bandage) THIS PROBLEM?
+1) Add some random remote events in your game.
+2) Give them random but realistic sounding names - like "GiveCash" and "Attack".
+3) Make it so that anybody firing these remote events get banned.
+
+
+THIS WILL NOT FIX THE PROBLEM - ONLY HIDE IT FROM SCRIPT KIDDIES USING THIS SCRIPT! IT WILL GET YOUR GAME STABLE JUST ENOUGH TO GET YOUR PLAYERS TO STOP SCREAMING WHILE YOU TRACK DOWN THE REAL ISSUE!
+A real exploiter will see the remote events actually fired by legitimate LocalScripts, as well as the inputs that go to the server. Then, they will exploit accordingly!
+The REAL way to fix this is by securing ALL your remote events! But knowing how Roblox games tend to be written and the pay you're making - that's impossible.
+
+Disclaimer: I am not distributing malicious code. This code is already available through Google - but there is no page out there that explains what this code does to help other developers who found themselves in my position.
+(As far as I know, that's what it does.
+You ended up on this Github page because you probably traded an unban to some exploiter in exhchange for their code.
+You're probably crying because you can't write a Localscript to bandage this exploit because this script parents to CoreGui, which we cannot manipulate with our own code for some reason.)
+
